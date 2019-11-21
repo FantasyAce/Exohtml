@@ -1,0 +1,34 @@
+@import './header.css';
+@import './footer.css';
+@import './nav.css';
+@import './sections.css';
+
+html{
+    scroll-behavior: smooth;
+    --bg: rgb(241, 227, 21);
+}
+
+
+
+body {
+    margin: 0;
+    background: hsl(0, 22%, 93%);
+    font-family: sans-serif;
+    line-height: 30px;
+    color: #444;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover{
+    color: indigo;
+}
+
